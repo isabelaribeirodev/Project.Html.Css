@@ -1,0 +1,283 @@
+
+
+*{
+    
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:375px) {
+    * body {
+
+        background-color: rgb(241, 230, 210);
+            
+        }
+
+    body  {
+        font-family: 'Montserrat', sans-serif;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    #container {
+        width:  375px;
+        background-color: white;
+        border-radius: 10px;
+
+        
+
+    }
+    #foto {
+
+        width:  375px;
+        height: 400px;
+        background-image: url(imagens/image-product-mobile.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+
+        
+      
+    }
+        h2 {
+            
+            font-size: small;
+            color: rgb(116, 112, 112);
+            font-weight: 200;
+            text-align: justify;
+
+            position: relative;
+            left: 20px;
+            top: -100px;
+            
+            
+        }
+
+        h1 {
+            font-weight: 700;
+            font-family:'Fraunces', serif;
+            font-size: 40px;
+            position: relative;
+            left: 20px;
+            text-align: left;
+            top: -89px;
+
+
+        }
+
+        p {
+            font-size: 17px;
+            color: rgb(116, 112, 112);
+            font-weight: 500;
+            position: relative;
+            line-height: 30px;
+            left: 20px;
+            top: 10px;
+            
+       
+            letter-spacing: normal;
+
+            top: -80px;
+
+
+            width:350px;
+            word-break: unset;
+        
+        }
+    
+        #preco p {
+            
+            font-weight: 700;
+            font-family:'Fraunces', serif;
+            font-size: 35px;
+
+            position: relative;
+            left: 20px;
+            text-align: left;
+            color:hsl(165, 96%, 21%);
+
+            top: -30px;
+        }
+
+        #precinho p {
+            font-family: 'Montserrat', sans-serif;
+            color: rgb(116, 112, 112);
+            left: 180px;
+            top: -55px;
+            
+            text-decoration: line-through;
+        }
+
+    
+
+        #botao1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+            background:hsl(165, 96%, 21%);
+            color:white;
+            margin: 0px 20px 30px 20px;
+            padding: 20px 0px 20px 0px ;
+            text-align: center;
+            border: 0;
+            border-radius: 10px;
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+    /* PARTE EM DESKTOP*/
+
+    @media screen and (min-width:376px) {
+        
+        body  {
+            font-family: 'Montserrat', sans-serif;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+
+            background-color: rgb(245, 234, 242);
+
+        }
+
+      
+        #texto {
+            width: 530px;
+            height: 400px;
+        }
+            
+        #container {
+
+           display: flex;
+           background-color: rgb(255, 252, 252);
+           border-radius: 10px;
+
+           position: relative;
+           width: 700px;
+           height: 500px;
+           
+        }
+
+    
+        
+        #foto {
+
+            display: flex;
+
+            position: relative;
+            width: 800px;
+            height: 500px;
+            background-image: url(imagens/image-product-desktop.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 10px  0PX 0PX 10PX;
+
+
+            
+        }
+
+        h2 {
+         
+       font-size: 15px;
+       font-family: 'Montserrat', sans-serif;
+       font-weight: 300;
+       color: rgb(116, 112, 112); 
+
+       position: relative;
+       top: 20px;
+       margin: 20px 0px 0px 30px;
+      
+        }
+
+        h1 {
+
+            font-family:'Fraunces', serif;
+            width: 200px;
+            overflow-wrap: break-word;  
+            word-wrap: break-word;
+
+            position: relative;
+            top: 40px;
+            margin: 0px 0px 0px 30px;
+            
+            
+        }
+
+        p {
+            color: rgb(116, 112, 112);
+            position: relative;
+            top: 60px;
+
+            width: 250px;
+            overflow-wrap: break-word;  
+            word-wrap: break-word;
+            margin: 0px 0px 0px 30px;
+
+            line-height: 30px;
+            
+
+        }
+       
+
+        #preco p {
+            
+            font-family:'Fraunces', serif;
+            font-size: 35px;
+            color:hsl(165, 96%, 21%);
+           
+            position: relative;
+            top: 90px;
+        }
+            
+        #precinho p {
+            font-family: 'Montserrat', sans-serif;
+            color: rgb(116, 112, 112);
+            text-decoration: line-through;
+
+            position: relative;
+            left: 162px;
+
+        }
+
+        
+
+         #botao1  {
+            width: 300px;
+            height: 55px;
+            border: 0;
+            border-radius: 10px;
+            font-family: 'Montserrat', sans-serif;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 11px;
+         
+    
+            background:hsl(165, 96%, 21%);
+            color:white;
+            
+            
+            margin: 82px 40px 0px 30px;
+        }
+            
+    }
+
+  
+
+
+    
+
+
+
+
