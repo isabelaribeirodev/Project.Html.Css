@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:410px) {
     * body {
 
         background-color: rgb(241, 230, 210);
@@ -134,7 +134,7 @@
     }
     /* PARTE EM DESKTOP*/
 
-    @media screen and (min-width:376px) {
+    @media screen and (min-width:411px) and (max-width:1440px) {
         
         body  {
             font-family: 'Montserrat', sans-serif;
@@ -272,6 +272,7 @@
         }
             
     }
+   
 
   
 
